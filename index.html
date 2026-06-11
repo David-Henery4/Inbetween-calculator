@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inbetween-calc</title>
+  </head>
+  <body class="main-grid">
+    <header>
+      <h1>Inbetween Calculator</h1>
+
+      <p>Gives you the middle value between two numbers!</p>
+    </header>
+
+    <main>
+      <form id="form-calculator">
+        <div>
+          <label for="number-1"> Number 1 </label>
+          <input required type="number" name="number-1" id="number-1" />
+        </div>
+        <div>
+          <label for="number-2"> Number 2 </label>
+          <input required type="number" name="number-2" id="number-2" />
+        </div>
+        <button>Submit</button>
+      </form>
+
+      <div id="answer-container">
+        <p>The inbetween value is....<span id="result"></span></p>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
